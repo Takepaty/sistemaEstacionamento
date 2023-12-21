@@ -40,7 +40,8 @@ O código está pela metade, e você deverá dar continuidade obedecendo as regr
 # Meu Projeto PMB Estacionamento :blue_car:
 
 
-:heavy_check_mark: ## A classe contém quatro variáveis, sendo:
+:heavy_check_mark: 
+## A classe contém quatro variáveis, sendo:
 
 :one:
 `checkIns` É um Dictionary que armazena os registros de check-in dos veículos. A chave é uma string que representa a placa do veículo e o valor é uma struct Registro que contém os detalhes do check-in.
