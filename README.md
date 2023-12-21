@@ -43,7 +43,7 @@ O código está pela metade, e você deverá dar continuidade obedecendo as regr
 :heavy_check_mark: A classe contém quatro variáveis, sendo:
 
 :one:
-**checkIns**: É um Dictionary que armazena os registros de check-in dos veículos. A chave é uma string que representa a placa do veículo e o valor é uma struct Registro que contém os detalhes do check-in.
+`**checkIns**`: É um Dictionary que armazena os registros de check-in dos veículos. A chave é uma string que representa a placa do veículo e o valor é uma struct Registro que contém os detalhes do check-in.
 
 :two:
 **taxaPorHora**: É uma variável double que armazena a taxa por hora para estacionar.
@@ -74,8 +74,8 @@ O código está pela metade, e você deverá dar continuidade obedecendo as regr
 
 :heavy_check_mark: Menu interativo com as seguintes ações:
 
-| 1 -   | Check-in de Veículo  |
-| :---: | :---:                |
-| 2 -   | Check-out de Veículo |
-| 3 -   | Listar veículo       |
-| 4 -   | Encerrar             |
+| 1 -   | `Check-in de Veículo` |
+| :---: | :---:                 |
+| 2 -   | `Check-out de Veículo`|
+| 3 -   | `Listar veículo`      |
+| 4 -   | `Encerrar`            |
