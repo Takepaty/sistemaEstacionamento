@@ -72,7 +72,7 @@ O código está pela metade, e você deverá dar continuidade obedecendo as regr
 :five:
 **Estacionamento()**:  Este é o construtor da classe, que é um método especial chamado quando um objeto da classe é criado.
 
-:heavy_check_mark: Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
+:heavy_check_mark: Menu interativo com as seguintes ações:
 
 1 - Check-in de Veículo
 2 - Check-out de Veículo
