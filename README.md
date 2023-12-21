@@ -40,7 +40,6 @@ O código está pela metade, e você deverá dar continuidade obedecendo as regr
 # Meu Projeto PMB Estacionamento :blue_car:
 
 
-:heavy_check_mark: 
 ## A classe contém quatro variáveis, sendo:
 
 :one:
@@ -56,7 +55,7 @@ O código está pela metade, e você deverá dar continuidade obedecendo as regr
 `NomeCondutor` É uma string que armazena o nome do condutor do veículo.
 
 
-:heavy_check_mark: ## A classe contém cinco métodos, sendo:
+## A classe contém cinco métodos, sendo:
 
 :one:
 `PlacaValida(string placa)`  Este método verifica se a placa do veículo está no formato correto.
@@ -73,7 +72,7 @@ O código está pela metade, e você deverá dar continuidade obedecendo as regr
 :five:
 `Estacionamento()`  Este é o construtor da classe, que é um método especial chamado quando um objeto da classe é criado.
 
-:heavy_check_mark: ## Menu interativo com as seguintes ações:
+## Menu interativo com as seguintes ações:
 
 | 1 -   | `Check-in de Veículo` |
 | :--- | :---                 |
