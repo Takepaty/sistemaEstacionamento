@@ -43,39 +43,39 @@ O código está pela metade, e você deverá dar continuidade obedecendo as regr
 :heavy_check_mark: A classe contém quatro variáveis, sendo:
 
 :one:
-`**checkIns**`: É um Dictionary que armazena os registros de check-in dos veículos. A chave é uma string que representa a placa do veículo e o valor é uma struct Registro que contém os detalhes do check-in.
+`checkIns` É um Dictionary que armazena os registros de check-in dos veículos. A chave é uma string que representa a placa do veículo e o valor é uma struct Registro que contém os detalhes do check-in.
 
 :two:
-**taxaPorHora**: É uma variável double que armazena a taxa por hora para estacionar.
+`taxaPorHora` É uma variável double que armazena a taxa por hora para estacionar.
 
 :three:
-**HoraEntrada**: É uma variável DateTime que armazena a hora em que o veículo entrou no estacionamento.
+`HoraEntrada` É uma variável DateTime que armazena a hora em que o veículo entrou no estacionamento.
 
 :four:
-**NomeCondutor**: É uma string que armazena o nome do condutor do veículo.
+`NomeCondutor` É uma string que armazena o nome do condutor do veículo.
 
 
 :heavy_check_mark: A classe contém cinco métodos, sendo:
 
 :one:
-**PlacaValida(string placa)**:  Este método verifica se a placa do veículo está no formato correto.
+`PlacaValida(string placa)`  Este método verifica se a placa do veículo está no formato correto.
 
 :two:
-**EntradaVeiculo(string placa, string nomeCondutor)**: Este método é chamado quando um veículo entra no estacionamento.
+`EntradaVeiculo(string placa, string nomeCondutor)` Este método é chamado quando um veículo entra no estacionamento.
 
 :three:
-**SaidaVeiculo(string placa)**: MEste método é chamado quando um veículo sai do estacionamento.
+`SaidaVeiculo(string placa)` MEste método é chamado quando um veículo sai do estacionamento.
 
 :four:
-**ListarVeiculos()**:  Este método lista todos os veículos atualmente no estacionamento.
+`ListarVeiculos()`  Este método lista todos os veículos atualmente no estacionamento.
 
 :five:
-**Estacionamento()**:  Este é o construtor da classe, que é um método especial chamado quando um objeto da classe é criado.
+`Estacionamento()`  Este é o construtor da classe, que é um método especial chamado quando um objeto da classe é criado.
 
 :heavy_check_mark: Menu interativo com as seguintes ações:
 
 | 1 -   | `Check-in de Veículo` |
-| :---: | :---:                 |
+| :--- | :---                 |
 | 2 -   | `Check-out de Veículo`|
 | 3 -   | `Listar veículo`      |
 | 4 -   | `Encerrar`            |
