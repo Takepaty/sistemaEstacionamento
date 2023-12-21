@@ -37,10 +37,10 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
 
-## Meu Projeto - PMB Estacionamento 
+# Meu Projeto - PMB Estacionamento 
 :computer:
 
-A classe contém quatro variáveis, sendo:
+:heavy_check_mark: A classe contém quatro variáveis, sendo:
 
 :one:
 **checkIns**: É um Dictionary que armazena os registros de check-in dos veículos. A chave é uma string que representa a placa do veículo e o valor é uma struct Registro que contém os detalhes do check-in.
@@ -54,7 +54,8 @@ A classe contém quatro variáveis, sendo:
 :four:
 **NomeCondutor**: É uma string que armazena o nome do condutor do veículo.
 
-A classe contém cinco métodos, sendo:
+
+:heavy_check_mark: A classe contém cinco métodos, sendo:
 
 :one:
 **PlacaValida(string placa)**:  Este método verifica se a placa do veículo está no formato correto.
@@ -71,7 +72,8 @@ A classe contém cinco métodos, sendo:
 :five:
 **Estacionamento()**:  Este é o construtor da classe, que é um método especial chamado quando um objeto da classe é criado.
 
-Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
+:heavy_check_mark: Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
+
 1 - Check-in de Veículo
 2 - Check-out de Veículo
 3 - Listar veículo
