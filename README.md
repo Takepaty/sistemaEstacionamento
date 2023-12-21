@@ -74,8 +74,8 @@ O código está pela metade, e você deverá dar continuidade obedecendo as regr
 
 :heavy_check_mark: Menu interativo com as seguintes ações:
 
-|1 - |Check-in de Veículo |
-|---|---|---|
-|2 - |Check-out de Veículo |
-|3 - |Listar veículo |
-|4 - |Encerrar |
+| 1 - | Check-in de Veículo |
+| :--- | :--- | :--- |
+| 2 - | Check-out de Veículo |
+| 3 - | Listar veículo |
+| 4 - | Encerrar |
