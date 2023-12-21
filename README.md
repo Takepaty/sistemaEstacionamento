@@ -1,4 +1,4 @@
-# DIO - Trilha .NET - Fundamentos
+# DIO - Trilha .NET - Fundamentos - Proposta desafio
 www.dio.me
 
 ## Desafio de projeto
@@ -36,3 +36,43 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+## Meu Projeto - PMB Estacionamento 
+:computer:
+
+A classe contém quatro variáveis, sendo:
+
+:one:
+**checkIns**: É um Dictionary que armazena os registros de check-in dos veículos. A chave é uma string que representa a placa do veículo e o valor é uma struct Registro que contém os detalhes do check-in.
+
+:two:
+**taxaPorHora**: É uma variável double que armazena a taxa por hora para estacionar.
+
+:three:
+**HoraEntrada**: É uma variável DateTime que armazena a hora em que o veículo entrou no estacionamento.
+
+:four:
+**NomeCondutor**: É uma string que armazena o nome do condutor do veículo.
+
+A classe contém cinco métodos, sendo:
+
+:one:
+**PlacaValida(string placa)**:  Este método verifica se a placa do veículo está no formato correto.
+
+:two:
+**EntradaVeiculo(string placa, string nomeCondutor)**: Este método é chamado quando um veículo entra no estacionamento.
+
+:three:
+**SaidaVeiculo(string placa)**: MEste método é chamado quando um veículo sai do estacionamento.
+
+:four:
+**ListarVeiculos()**:  Este método lista todos os veículos atualmente no estacionamento.
+
+:five:
+**Estacionamento()**:  Este é o construtor da classe, que é um método especial chamado quando um objeto da classe é criado.
+
+Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
+1 - Check-in de Veículo
+2 - Check-out de Veículo
+3 - Listar veículo
+4 - Encerrar
